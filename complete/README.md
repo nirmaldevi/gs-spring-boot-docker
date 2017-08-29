@@ -61,7 +61,7 @@ In the `pom.xml`, configure the `<docker.image.prefix>` with your docker registr
 You can combine the following commands into one line or run them separately:
 
 ```bash
-mvn package docker:build docker:push fabric8:secrets fabric8:resource fabric8:apply-secrets fabric8:apply
+mvn package docker:build docker:push fabric8:resource fabric8:apply
 ```
 
 ### Push image to your registry
@@ -81,11 +81,11 @@ mvn docker:push
 ### Build the Kubernetes resource yaml file
 
 ```bash
-mvn fabric8:secrets fabric8:resource
+mvn fabric8:resource
 ```
 
 ### Apply the Kubernetes resource yaml file to cluster
 
 ```bash
-mvn fabric8:apply-secrets fabric8:apply
+mvn fabric8:apply
 ```
