@@ -20,9 +20,8 @@ This demo uses the snapshot for [fabric8-maven-plugin](https://github.com/Micros
 Run the following command to download and install this maven plugin, since by default the the code is running on a linux machine, the Windows director sperator `:` will cause a test failed. Here simply ignore the test when running on Windows machine.
 
 ```bash
-git clone https://github.com/Microsoft/fabric8-maven-plugin.git
+git clone https://github.com/fabric8io/fabric8-maven-plugin.git
 cd fabric8-maven-plugin
-git checkout snap
 mvn install -Dmaven.test.skip=true
 cd it
 mvn install
