@@ -55,7 +55,7 @@
                 <groupId>io.fabric8</groupId>
                 <artifactId>fabric8-maven-plugin</artifactId>
                 <!-- This version should be changed once the feature published -->
-                <version>3.5-SNAPSHOT</version>
+                <version>3.5.30</version>
                 <configuration>
 <!--                     <ignoreServices>true</ignoreServices> -->
                     <registry>${docker.image.prefix}</registry>
